@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projecte Rest</string>
+    <string name="ReturnBtn2">TORNAR</string>
+    <string name="textView2">LLENGUATGE</string>
+    <string name="spanishlanguage">ESPANYOL</string>
+    <string name="catalanlanguage">CATALÀ</string>
+    <string name="englishlanguage">ANGLÈS</string>
+</resources>

@@ -1,0 +1,384 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.upc.dsa.restproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <queries>
+13-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:29:5-31:15
+14        <package android:name="com.google.ar.core" />
+14-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:30:9-54
+14-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:30:18-51
+15    </queries>
+16
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+18-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+19-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+20-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+21
+22    <application
+22-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:5:5-87:19
+23        android:allowBackup="true"
+23-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:7:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] C:\Users\jpie2\.gradle\caches\transforms-3\f8ca33f57cc610a0b1ed31d0cc4084bb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:8:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="true"
+27-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:13:9-41
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:9:9-54
+29        android:icon="@drawable/ic_launcher_background"
+29-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:10:9-56
+30        android:label="@string/app_name"
+30-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:11:9-41
+31        android:localeConfig="@xml/locales_config"
+31-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:6:9-51
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:16:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:12:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.RESTPROJECT"
+35-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:15:9-49
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:14:9-44
+37        <activity
+37-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:19:9-30:20
+38            android:name="edu.upc.dsa.restproject.PrincipalMainActivity"
+38-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:20:13-50
+39            android:exported="true"
+39-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:21:13-36
+40            android:label="@string/app_name" >
+40-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:22:13-45
+41            <intent-filter>
+41-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:23:13-26:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:24:17-69
+42-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:24:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:25:17-77
+44-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:25:27-74
+45            </intent-filter>
+46
+47            <meta-data
+47-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+48                android:name="android.app.lib_name"
+48-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+49                android:value="" />
+49-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:31:9-38:20
+52            android:name="edu.upc.dsa.restproject.MainActivity"
+52-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:32:13-41
+53            android:exported="true"
+53-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:33:13-36
+54            android:label="@string/app_name" >
+54-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:34:13-45
+55            <meta-data
+55-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+56                android:name="android.app.lib_name"
+56-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+57                android:value="" />
+57-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+58        </activity>
+59        <activity
+59-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:39:9-46:20
+60            android:name="edu.upc.dsa.restproject.RegisterActivity"
+60-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:40:13-45
+61            android:exported="true"
+61-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:41:13-36
+62            android:label="@string/app_name" >
+62-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:42:13-45
+63            <meta-data
+63-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+64                android:name="android.app.lib_name"
+64-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+65                android:value="" />
+65-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+66        </activity>
+67        <activity
+67-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:47:9-54:20
+68            android:name="edu.upc.dsa.restproject.LoginActivity"
+68-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:48:9-38
+69            android:exported="true"
+69-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:49:9-32
+70            android:label="@string/app_name" >
+70-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:50:9-41
+71            <meta-data
+71-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+72                android:name="android.app.lib_name"
+72-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+73                android:value="" />
+73-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+74        </activity>
+75        <activity
+75-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:55:9-62:20
+76            android:name="edu.upc.dsa.restproject.AbuseActivity"
+76-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:56:13-42
+77            android:exported="true"
+77-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:57:13-36
+78            android:label="@string/app_name" >
+78-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:58:13-45
+79            <meta-data
+79-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+80                android:name="android.app.lib_name"
+80-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+81                android:value="" />
+81-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+82        </activity>
+83        <activity
+83-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:63:9-70:20
+84            android:name="edu.upc.dsa.restproject.TiendaActivity"
+84-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:64:13-43
+85            android:exported="true"
+85-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:65:13-36
+86            android:label="@string/app_name" >
+86-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:66:13-45
+87            <meta-data
+87-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+88                android:name="android.app.lib_name"
+88-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+89                android:value="" />
+89-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+90        </activity>
+91        <activity
+91-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:71:9-78:20
+92            android:name="edu.upc.dsa.restproject.FaqActivity"
+92-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:72:13-40
+93            android:exported="true"
+93-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:73:13-36
+94            android:label="@string/app_name" >
+94-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:74:13-45
+95            <meta-data
+95-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+96                android:name="android.app.lib_name"
+96-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+97                android:value="" />
+97-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+98        </activity>
+99        <activity
+99-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:79:9-86:20
+100            android:name="edu.upc.dsa.restproject.LanguageActivity"
+100-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:80:13-45
+101            android:exported="true"
+101-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:81:13-36
+102            android:label="@string/app_name" >
+102-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:82:13-45
+103            <meta-data
+103-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:27:13-29:35
+104                android:name="android.app.lib_name"
+104-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:28:17-52
+105                android:value="" />
+105-->C:\Users\jpie2\AndroidStudioProjects\minim2\Rest_DSA\app\src\main\AndroidManifest.xml:29:17-33
+106        </activity>
+107
+108        <provider
+108-->[com.squareup.picasso:picasso:2.71828] C:\Users\jpie2\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+109            android:name="com.squareup.picasso.PicassoProvider"
+109-->[com.squareup.picasso:picasso:2.71828] C:\Users\jpie2\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+110            android:authorities="edu.upc.dsa.restproject.com.squareup.picasso"
+110-->[com.squareup.picasso:picasso:2.71828] C:\Users\jpie2\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+111            android:exported="false" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+111-->[com.squareup.picasso:picasso:2.71828] C:\Users\jpie2\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+112        <meta-data
+112-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:36:9-38:41
+113            android:name="com.google.ar.core.min_apk_version"
+113-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:37:13-62
+114            android:value="213210000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+114-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:38:13-38
+115        <activity
+115-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:40:9-46:80
+116            android:name="com.google.ar.core.InstallActivity"
+116-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:41:13-62
+117            android:configChanges="keyboardHidden|orientation|screenSize"
+117-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:42:13-74
+118            android:excludeFromRecents="true"
+118-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:43:13-46
+119            android:exported="false"
+119-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:44:13-37
+120            android:launchMode="singleTop"
+120-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:45:13-43
+121            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+121-->[com.google.ar:core:1.30.0] C:\Users\jpie2\.gradle\caches\transforms-3\d6e838ff9c31583bb18618b533a5d1fd\transformed\core-1.30.0\AndroidManifest.xml:46:13-77
+122
+123        <receiver
+123-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+124            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+124-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+125            android:exported="true"
+125-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+126            android:permission="com.google.android.c2dm.permission.SEND" >
+126-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+127            <intent-filter>
+127-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+128                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+128-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+128-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+129            </intent-filter>
+130        </receiver>
+131        <!--
+132             FirebaseMessagingService performs security checks at runtime,
+133             but set to not exported to explicitly avoid allowing another app to call it.
+134        -->
+135        <service
+135-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+136            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+136-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+139            <intent-filter android:priority="-500" >
+139-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:13-50:29
+139-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:28-51
+140                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+140-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:17-78
+140-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:25-75
+141            </intent-filter>
+142        </service>
+143        <service
+143-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:52:9-58:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:53:13-84
+145            android:directBootAware="true"
+145-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+146            android:exported="false" >
+146-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:54:13-37
+147            <meta-data
+147-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+148                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+148-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\jpie2\.gradle\caches\transforms-3\dc447fe72cfb304809fdf0c10cf91a03\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\jpie2\.gradle\caches\transforms-3\1c7c0612bcee649961cc00f126d72e22\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+151                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+151-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\jpie2\.gradle\caches\transforms-3\1c7c0612bcee649961cc00f126d72e22\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\jpie2\.gradle\caches\transforms-3\1c7c0612bcee649961cc00f126d72e22\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\jpie2\.gradle\caches\transforms-3\0625461a59256808edb5ca204ddd6b0c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+154-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\jpie2\.gradle\caches\transforms-3\0625461a59256808edb5ca204ddd6b0c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\jpie2\.gradle\caches\transforms-3\0625461a59256808edb5ca204ddd6b0c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+156        </service>
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+160            android:authorities="edu.upc.dsa.restproject.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jpie2\.gradle\caches\transforms-3\74c89106ff7cc8d2d659a00ba65f5143\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jpie2\.gradle\caches\transforms-3\5466824ca35740d3c6aeb4c5d463f1b2\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jpie2\.gradle\caches\transforms-3\5466824ca35740d3c6aeb4c5d463f1b2\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jpie2\.gradle\caches\transforms-3\5466824ca35740d3c6aeb4c5d463f1b2\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jpie2\.gradle\caches\transforms-3\5466824ca35740d3c6aeb4c5d463f1b2\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jpie2\.gradle\caches\transforms-3\28a741edc80a99d6fd4d8140326ebccf\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jpie2\.gradle\caches\transforms-3\28a741edc80a99d6fd4d8140326ebccf\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jpie2\.gradle\caches\transforms-3\28a741edc80a99d6fd4d8140326ebccf\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+173
+174        <provider
+174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+175            android:name="androidx.startup.InitializationProvider"
+175-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+176            android:authorities="edu.upc.dsa.restproject.androidx-startup"
+176-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+177            android:exported="false" >
+177-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+178            <meta-data
+178-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+179                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+179-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+180                android:value="androidx.startup" />
+180-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jpie2\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+181            <meta-data
+181-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jpie2\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+182                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+182-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jpie2\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+183                android:value="androidx.startup" />
+183-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jpie2\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+184        </provider>
+185
+186        <uses-library
+186-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+187            android:name="androidx.window.extensions"
+187-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+188            android:required="false" />
+188-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+189        <uses-library
+189-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+190            android:name="androidx.window.sidecar"
+190-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+191            android:required="false" />
+191-->[androidx.window:window:1.0.0] C:\Users\jpie2\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+192
+193        <service
+193-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+194            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+194-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+195            android:exported="false" >
+195-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+196            <meta-data
+196-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+197                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+197-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+198                android:value="cct" />
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\8c6712bcf23b93b22b73258f9fbc9b0c\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+199        </service>
+200        <service
+200-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+201-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+202            android:exported="false"
+202-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+203            android:permission="android.permission.BIND_JOB_SERVICE" >
+203-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+204        </service>
+205
+206        <receiver
+206-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+207            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+207-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+208            android:exported="false" />
+208-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\jpie2\.gradle\caches\transforms-3\f7a08f703a491652b0d7e56b12c09b4a\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+209    </application>
+210
+211</manifest>

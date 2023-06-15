@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RESTPROJECT</string>
+    <string name="ReturnBtn2">RETURN</string>
+    <string name="textView2">LANGUAGE</string>
+    <string name="spanishlanguage">SPANISH</string>
+    <string name="catalanlanguage">CATALAN</string>
+    <string name="englishlanguage"></string>
+</resources>
